@@ -9,12 +9,11 @@ const Card = styled(BaseCard)`
 `;
 
 const AuthLayout = () => {
+  return (
+    <Card>
+      <Outlet />
+    </Card>
+  );
+};
 
-    return (
-        <Card>
-            <Outlet />
-        </Card>
-    )
-}
-
-export default AuthLayout
+export default AuthLayout;

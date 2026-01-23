@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Dropdown = styled.select`
-width: 100%;
+  width: 100%;
   padding: 10px 16px;
   font-size: 16px;
   border-radius: 16px;
@@ -16,4 +16,4 @@ width: 100%;
   option:not(:first-child) {
     color: #000;
   }
-`
+`;
